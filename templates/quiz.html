@@ -7,7 +7,7 @@
 	<style>
 		body {background-color: indigo;}
 			h2   {color: red;} 
- 			h3	 {color: yellow;} 
+ 			h4	 {color: yellow;} 
 			h1   {text-align: center;
 				   color: red;}      
 	</style>
@@ -23,10 +23,10 @@
 			
 		<h2> {{loop.index}} {{question.question}}</h2>
 		
-			<h3><span style="font-size: 25px;"><input type="radio" name="{{question.q_id}}" value="{{question.option1}}" required>{{question.option1}} 
+			<h4><span style="font-size: 25px;"><input type="radio" name="{{question.q_id}}" value="{{question.option1}}" required>{{question.option1}} 
 			<input type="radio" name="{{question.q_id}}" value="{{question.option2}}" required>{{question.option2}}			
 			<input type="radio" name="{{question.q_id}}" value="{{question.option3}}" required>{{question.option3}}
-		    <input type="radio" name="{{question.q_id}}" value="{{question.option4}}" required>{{question.option4}}</h3>
+		    <input type="radio" name="{{question.q_id}}" value="{{question.option4}}" required>{{question.option4}}</h4>
 		    </span>
 			
 		<br><br>
