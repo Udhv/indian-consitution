@@ -15,10 +15,21 @@ q1=[
     [13,"The independence of Judiciary”  in Indian constitution is taken from.","A.Britain","B.USA","C.South Africa","C.Austalia","A"],
     [14,"Which of the following article of the Indian Constitution deals with the constitution of the Parliament of India?","A.Article 73","B.Article 78","C.Article 79","D.Article 72","C"],
     [15,"How many number of members are nominated by the President to the Rajya sabha?","A.20","B.18","C.12","D.15","C"],
-    [16,"which court decesion is final and can't be challenged?","A.Local court","B.District court","C.High court","D.Supreme court"],
-    [17,"Which is known as the upper house ?","A.Lok sabha","B.jan sabha","c.Rajya sabha","d.Local sabha"],
-    [18,"Lok sabha has how many seats ? ","A.245","B.345","C.445","D.545"],
-    [19,"Rajya sabha total number of seats ? ","A.100","B.150","C.200","D.250"],
-    [20,"Government has total how many powers ? ","A.10","B.15","C.5","D.7"],
-]
+    [16,"who among the following was the first chief justice of india and assumed office on 26th jan.1950?","A.meher chand mahajand","B.patanjli sastri","C.harilal kania","D.BK mukherjea","C"],
+    [17,"which constitutional artical lays down the provision for a national commission for SC and ST?","A.artical 337","B.artical 334","C.artical 338","D.artical 339","C"],
+    [18,"which community gets special provision for central service in artical 336?","A.sikh community","B.muslim community","C.hindu community","D.anglo-indian community","D"],
+    [19,"national commision for SC and ST shall be made by which constitutional institution?","A.paelament","B.Executive","C.judiciary","D.state legislature","A"],
+    [20,"under constitutional artical 343, which is the official language of the union?","A.urdu","B.hindi","C.english","D.B&c","D"],
+    [21,"which constitutional artical define muncipalities?","A.artical 243P","B.artical 243Q","C.artical 243T","D.artical 343U","A"],
+    [22,"the constitution of the india , was drafted and enacted in which language?","A.hindi","B.english","C.tamil","D.telugu","B"],
+    [23,"total no. of schedule in constitution of india is :?","A.22","B.17","C.97","D.12","D"],
+    [24,"constitution of india was enacted by the constitunet assembly on:?","A.26 january 1950","B.26 november 1949","C.20 nov. 1950","D.20 january 1949","B"],
+    [25,"constitution of india cam into effect on:?","A.january 1950","B.26 nov.1949","C.20 nov.1950","D.20 january 1949","A"],
+    [26,"total no. of six fundamental rights in constitutional of india is:?","A.12","B.5","C.6","D.8","C."],
+    [27,"indian indipandance act,passed by the british parliment on:?","A.18 july 1947","B.20 july 1947","C.14 august1947","D.20 july 1946","A"],
+    [28,"how many member can be nominated to the rajya sabha by president in india?","A.10","B.12","C.14","D.18","B"],
+    [29,"what is the minimun age for appointment as a governer?","A.35 years","B.40 years","C.25 years","D.30 years","A"],
+    [30,"chief minister of a state is responsible to ","A.prime minister","B.rajya sanha","C.legistative assembly","D.governer","C"],]
+    
+    
 
