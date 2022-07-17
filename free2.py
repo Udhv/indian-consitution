@@ -37,7 +37,7 @@ class Question:
         
 
 question_list=[]
-for x in range(15):
+for x in range(30):
     q=(icmodule.q1[x])
     q1=Question(q[0],q[1],q[2],q[3],q[4],q[5],q[6])
     question_list.append(q1)
