@@ -31,10 +31,8 @@ class Question:
             return self.option4
 
 question_list=[]  
-for x in range(len(free.q1)):
-
-
-    q=(free.q1[x])
+for x in range(len(icmodule.q1)):
+    q=(icmodule.q1[x])
     q1=Question(q[0],q[1],q[2],q[3],q[4],q[5],q[6])
     question_list.append(q1)
  
