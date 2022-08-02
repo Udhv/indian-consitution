@@ -1,41 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Quiz Application</title>
-	<style>
-		body {background-color: indigo;}
-			h2   {color: red;} 
- 			h4	 {color: yellow;} 
-			h1   {text-align: center;
-				   color: red;}
-			
-	</style>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-green.css">
+
+<title>Quiz Application</title>
 	
 </head>
-<body>
-	<h1>QUIZ</h1>
+<body class="w3-theme-l3" style="border: 15px">
+
+	<h1 Style="text-align: center;border: 5px solid blue" class="w3-theme-d4"> Web Base Quiz</h1>
+		<hr />
 	
 	
-		<form action="/submitquiz" method="post">
+		<form action="/submitquiz" method="post" style="text-align">
+					
 			{% for question in question_list %}
 			<h2></h2>
-			
-		<h2> {{loop.index}} {{question.question}}</h2>
 		
-			<h4><span style="font-size: 25px;"><input type="radio" name="{{question.q_id}}" value="{{question.option1}}" required>{{question.option1}} 
-			<br><input type="radio" name="{{question.q_id}}" value="{{question.option2}}" required>{{question.option2}}			
-			<br><input type="radio" name="{{question.q_id}}" value="{{question.option3}}" required>{{question.option3}}
-		        <br><input type="radio" name="{{question.q_id}}" value="{{question.option4}}" required>{{question.option4}}</h4>
+		<h2 class="w3-theme" style="text-align: center;border: 5px solid blue;">Q. {{loop.index}} {{question.question}}
+		<h4 class="w3-theme-l1" style="text-align: center;border: 5px solid blue;"><span style="font-size: 35px;"><input type="radio" style="font-size:300px" name="{{question.q_id}}" value="{{question.option1}}">{{question.option1}}<br>
+<input type="radio" name="{{question.q_id}}" value="{{question.option2}}" >{{question.option2}}<br>			
+<input type="radio" name="{{question.q_id}}" value="{{question.option3}}">{{question.option3}}</h4></h2>
 		    </span>
-			
-		<br>
+		<br/>
 			{% endfor %}
-
+			
 			<br><br>
 			
-		<pre>                                                                                            <input type="submit" name=" submitform" value="Submit">
+ <h1 style="text-align: center; font-size: 100px;">	
+			<input type="submit" name=" submitform" value="Submit" class="w3-theme" style="border : 7px solid blue">
+			</h1>
+			<br>
+			<br>
+		
 		</form>
 			
 
